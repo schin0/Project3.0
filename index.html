@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/calculating.svg" type="image/x-icon">
+  <title>Cálculos</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Número fracionado em inteiro mais próximo -->
+    <section>
+      <div>
+        <h2>Aproximação de Número fracionado</h2>
+      </div>
+      <input type="number" name="numFrac" id="numFrac" placeholder="Ex: 0.98">
+      <button id="btnTransf">Aproximar</button>
+      <div>
+        <input type="text" name="resultado" id="resultado" placeholder="*Resultado*">
+      </div>
+    </section>
+    <!-- Potência do número -->
+    <section>
+      <div>
+        <h2>Potência de um número</h2>
+      </div>
+      <input type="number" name="num1" id="num1" placeholder="Base">
+      <input type="number" name="num2" id="num2" placeholder="Expoente">
+      <button id="btnCalc">Calcular</button>
+      <div>
+        <input type="text" name="resultado" id="resultadoPot" placeholder="*Potência*">
+      </div>
+    </section>
+    <!-- Círculo -->
+    <section>
+      <div>
+        <h2>Círculo</h2>
+      </div>
+      <input type="number" name="raio" id="raio" placeholder="Raio do círculo (m)">
+      <button id="btnCircle">Calcular</button>
+      <h4>Circunferência:</h4>
+      <div>
+        <input type="text" name="circunferencia" id="resultadoCircunf" placeholder="*Circunferência*">
+      </div>
+      <div>
+        <h4>Área:</h4>
+      </div>
+      <input type="text" name="area" id="resultadoArea" placeholder="*Área*">
+    </section>
+    <!-- Cubo -->
+    <section>
+      <div>
+        <h2>Cubo</h2>
+      </div>
+      <input type="number" name="aresta" id="aresta" placeholder="Aresta (m)">
+      <button id="btnCubo">Calcular</button>
+      <h4>Área da Base:</h4>
+      <div>
+        <input type="text" name="areaB" id="resultArB" placeholder="*Área da Base*">
+      </div>
+      <div>
+        <h4>Área total:</h4>
+      </div>
+      <input type="text" name="areaTot" id="resultArT" placeholder="*Área total*">
+      <h4>Volume:</h4>
+      <div>
+        <input type="text" name="volume" id="volume" placeholder="*Volume*">
+      </div>
+    </section>
+    <!-- Fórmula preferida -->
+    <section>
+      <div>
+        <h2>Logaritmos</h2>
+        <h4>Para ajudar na lógica de programação, alguns algoritmos utilizam o Logaritmo e, por isso, escolhi esse tema
+          para treinar a base.</h4>
+      </div>
+      <h4>log</h4>
+      <input type="number" name="logaritmo" id="logaritmo" placeholder="*Digite o resultado*">
+      <button id="btnTransf">Verificar</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
